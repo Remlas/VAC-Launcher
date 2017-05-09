@@ -24,11 +24,19 @@ public class Configuration {
     private boolean offlineEnabled = true;
     private String jvmPath;
     private String jvmArgs;
+<<<<<<< HEAD
     private int minMemory = 512;
     private int maxMemory = 1024;
     private int permGen = 128;
     private int windowWidth = 1280;
     private int widowHeight = 720;
+=======
+    private int minMemory = 1024;
+    private int maxMemory = 0; // Updated in Launcher
+    private int permGen = 256;
+    private int windowWidth = 854;
+    private int widowHeight = 480;
+>>>>>>> refs/remotes/SKCraft/master
     private boolean proxyEnabled = false;
     private String proxyHost = "localhost";
     private int proxyPort = 8080;
